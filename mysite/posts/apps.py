@@ -1,6 +1,7 @@
 from django.apps import AppConfig
 
 
-class BoardConfig(AppConfig):
+class PostsConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'board'
+    name = 'posts'
+
